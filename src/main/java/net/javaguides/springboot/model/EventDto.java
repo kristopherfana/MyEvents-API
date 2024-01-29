@@ -1,10 +1,6 @@
 package net.javaguides.springboot.model;
 
-import net.javaguides.springboot.service.User.UserService;
-
-
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
@@ -20,13 +16,14 @@ public class EventDto {
     private Long creatorId;
     private String link;
 
-    public EventDto(){}
+    public EventDto() {
+    }
 
     public EventDto(String title, String description,
-                    Boolean allDay, String startDate,
-                    String startTime, String endTime,
-                    String endDate, List<Long> guestIds,
-                    Long creatorId, String link) {
+            Boolean allDay, String startDate,
+            String startTime, String endTime,
+            String endDate, List<Long> guestIds,
+            Long creatorId, String link) {
         this.title = title;
         this.description = description;
         this.allDay = allDay;
@@ -96,8 +93,6 @@ public class EventDto {
     public void setEndDate(String endDate) {
         this.endDate = endDate;
     }
-
-
 
     public String getLink() {
         return link;
