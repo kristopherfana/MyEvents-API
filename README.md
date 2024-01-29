@@ -86,4 +86,4 @@ To sign in:
 
 Once you have signed in, you can navigate to other controllers and access their endpoints.
 
-That's it! You have successfully set up a SpringBoot backend application with MySQL as the database. You can now explore and implement the desired functionality using the available controllers and endpoints.
+That's it! You have successfully set up a SpringBoot backend application with MySQL as the database. You can now explore the desired functionality using the available controllers and endpoints.
